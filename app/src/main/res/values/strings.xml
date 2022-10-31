@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">EjercicioMenuOpciones</string>
+    <string name="id_asir">ASIR</string>
+    <string name="id_daw">DAW</string>
+    <string name="id_dam">DAM</string>
+    <string name="txt_ciclos">Ciclos Formativos Grado Superior</string>
+    <string name="txt_informatica">Informática</string>
+    <string name="title_activity_scrolling_asir">CFGS ASIR</string>
+    <string name="title_activity_scrolling_daw">CFGS DAW</string>
+    <string name="title_activity_scrolling_dam">CFGS DAM</string>
+    <string name="texto_asir">
+        "Qué es ASIR\n\n"
+
+        "El de Técnico Superior en Administración de "
+        "Sistemas Informáticos en Red es un CFGS en el que "
+        "se aprende a configurar, administrar y mantener "
+        "sistemas informáticos, de manera que se pueda "
+        "garantizar su funcionalidad y la integridad de los "
+        "recursos y servicios que conforman el sistema, "
+        "así como preservar una calidad mínima y el "
+        "cumplimiento de la legislación vigente. Esta es, al "
+        "menos, la competencia general.\n\n"
+
+        "Por qué estudiar el FP de Administración de "
+        "Sistemas Informáticos en red.\n\n"
+
+        "Como otrasa ramas de la Informática y las "
+        "Comunicaciones, las salidas profesionales de "
+        "un Técnico Superior en ASIR resultan bastante"
+        "atractivas.\n\n"
+
+        "Las instituciones públicas, educativas, "
+        "empresariales y cualquier organización, en general, "
+        "cuentan hoy con sistemas informáticos en red "
+        "cuyo buen funcionamiento depende de los expertos "
+        "de sistemas informáticos en red.\n\n"
+    </string>
+    <string name="texto_daw">
+        "Qué es DAW\n\n"
+
+        "DAW son las siglas que se suelen utilizar para "
+        "hacer referencia a Desarrollo de Aplicaciones "
+        "Web, para que te vayas familiarizando con ellas.\n"
+        "La competencia general que tiene un técnico"
+        "superior en este campo, es la de poder desarrollar, "
+        "implantar y mantener aplicaciones web, de forma "
+        "independiente al modelo que utilice y haciendo "
+        "uso de una tecnología específica. También se "
+        "preocupará de garantizar el acceso a los datos de "
+        "forma segura, y de hacer que la app sea accesible, "
+        "usable y de una calidad acorde a los estándares.\n\n"
+
+        "¿Por qué estudiar en grado superior DAW? Hace "
+        "años que se viene hablando del boom de las "
+        "aplicaciones web. Los dispositivos tecnológicos "
+        "cada vez son más sofisticados, con diseños muy "
+        "elaborados que avanzan con respecto al modelo "
+        "anterior o en comparación a otros de diferentes "
+        "marcas. A día de hoy, el uso de estos y de la online "
+        "es continuo, permanente en muchísimos casos, de "
+        "manera que se necesita personal cualificado para el "
+        "desarrollo e aplicaciones web.\n\n"
+    </string>
+    <string name="texto_dam">
+        "Qué es DAM\n\n"
+
+        "En el ciclo superior en DAM se aprende a desarrollar, "
+        "implantar, documentar y mantener aplicaciones "
+        "informáticas multiplataforma. Para ello, se utilizan "
+        "las nuevas tecnologías en entornos específicos, de "
+        "una forma que pueda garantizar la seguridad en "
+        "el acceso a los datos, y que se siga los principios de "
+        "usabilidad y calidad que se exigen.\n\n"
+
+        "Esta FP comparte contenidos con DAW, pero esta "
+        "última está enfocada a las aplicaciones web, de "
+        "manera que DAM ofrece un plan de estudios mása "
+        "completo como programador/a porque, entre otras "
+        "cosas, se ven más lenguajes de programación.\n"
+        "DAW, al ser más específicom está más indicado para "
+        "quienes tengan claro que quieren dedicarse a las "
+        "aplicaciones web.\n\n"
+
+        "¿Por qué estudiar FP grado superior DAM? Las "
+        "aplicaciones están presentes en dispositivos "
+        "electrónicos, que cada vez son más, están mejor "
+        "desarrollados y son más versátiles. Las apps, por "
+        "supuesto, deben estar en sintonía con ellos, para "
+        "tener un buen funcionamiento.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>
