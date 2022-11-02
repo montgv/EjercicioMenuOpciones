@@ -31,13 +31,9 @@ public class ScrollingASIR extends AppCompatActivity {
         toolBarLayout.setTitle(getTitle());
 
         FloatingActionButton fab = binding.fab;
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //Intent intent = new Intent(this, com.example.ejerciciomenuopciones.MainActivity.class);
-                //startActivity(intent);
-                //finish();
-            }
+        binding.fab.setOnClickListener(view -> {
+            startActivity(new Intent(this, MainActivity.class));
+            finish();
         });
     }
 }
