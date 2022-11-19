@@ -12,10 +12,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.ejerciciomenuopciones.databinding.ActivityMainBinding;
-
 public class MainActivity extends AppCompatActivity {
 
+    //Declaramos la siguientes variables de imageView
     ImageView imageView1;
     ImageView imageView2;
     ImageView imageView3;
@@ -25,17 +24,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Menu contextual
+        //Obtenemos las referencias a los controles
         imageView1 = findViewById(R.id.idIVAsir);
         imageView2 = findViewById(R.id.idIVDam);
         imageView3 = findViewById(R.id.idIVDaw);
 
+        //Asociamos los menus contextuales a los controles
         registerForContextMenu(imageView1);
         registerForContextMenu(imageView2);
         registerForContextMenu(imageView3);
     }
 
-    //Menu opciones
+    /*
+    Sobreescribimos el evento encargado de construir los menus opciones asociados a los diferentes
+    controles
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -43,7 +46,10 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    //Menu contextual
+    /*
+    Sobreescribimos el evento encargado de construir los menus contextuales asociados a los diferentes
+    controles
+     */
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
@@ -51,7 +57,9 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu_opciones, menu);
     }
 
-    //Menu opciones
+    /*
+    Implementamos las acciones a realizar tras pulsar una opcion determinada del menu
+     */
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
@@ -75,7 +83,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    //Menu contextual
+    /*
+    Implementamos las acciones a realizar tras pulsar una opcion determinada del menu contextual
+     */
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
